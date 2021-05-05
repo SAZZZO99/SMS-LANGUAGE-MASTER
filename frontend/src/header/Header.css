@@ -1,0 +1,13 @@
+/* header */
+.header {
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.heading {
+  color: rgb(0, 0, 0);
+  padding: 20px 0 0;
+  font-size: var(--headong-fonstsize);
+  font-weight: bolder;
+  cursor: pointer;
+}
