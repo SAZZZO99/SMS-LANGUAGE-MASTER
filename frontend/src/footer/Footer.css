@@ -1,0 +1,54 @@
+/* Footer */
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  background: #111;
+  justify-content: space-between;
+}
+
+.left {
+  display: table-cell;
+  width: 50%;
+  padding: 50px 70px;
+}
+
+.center {
+  display: table-cell;
+  width: 20%;
+}
+
+footer .footerContainer {
+  display: table;
+  width: 100%;
+}
+
+.about {
+  text-align: justify;
+  /* text-justify: inter-word; */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #fff;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.footerAboutProject {
+  padding: 0 0 10px;
+}
+
+.mentor {
+  padding: 20px 0 10px;
+}
+
+.bottomName {
+  padding: 0 0 50px;
+}

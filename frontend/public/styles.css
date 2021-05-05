@@ -1,0 +1,52 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Font */
+:root {
+  --body-font: 'Montserrat', sans-serif;
+  --foreground-color: #fff;
+  --background-color: #f1f1f1;
+  --headong-fonstsize: 2.5rem;
+  --normal-font-size: 0.536rem;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font) !important;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23ffffff' cx='50' cy='0' r='50'/%3E%3Cg fill='%23f3f9ff' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e7f3ff' cx='50' cy='100' r='50'/%3E%3Cg fill='%23dcedff' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d0e7ff' cx='50' cy='200' r='50'/%3E%3Cg fill='%23c4e1ff' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b9dbff' cx='50' cy='300' r='50'/%3E%3Cg fill='%23add5ff' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a1cfff' cx='50' cy='400' r='50'/%3E%3Cg fill='%2395c9ff' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2389c3ff' cx='50' cy='500' r='50'/%3E%3Cg fill='%237ebdff' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2372b7ff' cx='50' cy='600' r='50'/%3E%3Cg fill='%2366b1ff' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%235babff' cx='50' cy='700' r='50'/%3E%3Cg fill='%234fa5ff' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23439fff' cx='50' cy='800' r='50'/%3E%3Cg fill='%233799ff' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%232b93ff' cx='50' cy='900' r='50'/%3E%3Cg fill='%23208dff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%231487ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
